@@ -1,0 +1,14 @@
+# 가상환경 제외
+venv/
+*/venv/
+__pycache__/
+*.pyc
+*.pyd
+
+# 대용량 딥러닝 라이브러리 제외
+*.dll
+*.lib
+*.so
+*.whl
+*.pt
+*.ckpt
